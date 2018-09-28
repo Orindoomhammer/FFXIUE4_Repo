@@ -1,0 +1,502 @@
+﻿Log file open, 09/27/18 17:38:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FFXIUE4_Repo
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 161.992823
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin DlgSystem
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  2.795s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  , GPU: AMD Radeon(TM) Vega 8 Mobile Graphics
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.27-23.39.00:488][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.27-23.39.00:489][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.27-23.39.00:624][  0]LogHAL: Display: Platform has ~ 16 GB [16865058816 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.27-23.39.00:655][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.27-23.39.00:667][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.27-23.39.00:929][  0]LogInit: Computer: DESKTOP-VUGLOGC
+[2018.09.27-23.39.00:929][  0]LogInit: User: Adam
+[2018.09.27-23.39.00:930][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.27-23.39.00:930][  0]LogInit: High frequency timer resolution =1.949463 MHz
+[2018.09.27-23.39.00:931][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx)
+[2018.09.27-23.39.00:931][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.27-23.39.00:931][  0]LogMemory: Process Physical Memory: 100.78 MB used, 100.78 MB peak
+[2018.09.27-23.39.00:931][  0]LogMemory: Process Virtual Memory: 97.49 MB used, 97.49 MB peak
+[2018.09.27-23.39.00:931][  0]LogMemory: Physical Memory: 8142.93 MB used,  7940.85 MB free, 16083.77 MB total
+[2018.09.27-23.39.00:931][  0]LogMemory: Virtual Memory: 4651.37 MB used,  7940.85 MB free, 134217728.00 MB total
+[2018.09.27-23.39.03:874][  0]LogInit: Using OS detected language (en-US).
+[2018.09.27-23.39.03:874][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.27-23.39.03:947][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.27-23.39.06:087][  0]LogStreaming: Display: Took  2.177s to InitEngineTextLocalization.
+[2018.09.27-23.39.06:101][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.27-23.39.07:891][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.27-23.39.07:891][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.27-23.39.25:795][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.27-23.39.25:795][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.27-23.39.26:279][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Vega 8 Mobile Graphics' (Feature Level 11_0)
+[2018.09.27-23.39.26:279][  0]LogD3D11RHI:       241/0/8041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.09.27-23.39.26:283][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.27-23.39.26:284][  0]LogD3D11RHI:       0/0/8041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.27-23.39.26:284][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.27-23.39.26:327][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.27-23.39.26:327][  0]LogD3D11RHI:     GPU DeviceId: 0x15dd (for the marketing name, search the web for "GPU Device Id")
+[2018.09.27-23.39.26:336][  0]LogWindows: EnumDisplayDevices:
+[2018.09.27-23.39.26:336][  0]LogWindows:    0. 'AMD Radeon(TM) Vega 8 Mobile Graphics' (P:1 D:1)
+[2018.09.27-23.39.26:337][  0]LogWindows:    1. 'AMD Radeon(TM) Vega 8 Mobile Graphics' (P:0 D:0)
+[2018.09.27-23.39.26:337][  0]LogWindows:    2. 'AMD Radeon(TM) Vega 8 Mobile Graphics' (P:0 D:0)
+[2018.09.27-23.39.26:337][  0]LogWindows:    3. 'AMD Radeon(TM) Vega 8 Mobile Graphics' (P:0 D:0)
+[2018.09.27-23.39.26:338][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.09.27-23.39.26:338][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Vega 8 Mobile Graphics
+[2018.09.27-23.39.26:338][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:22.19.655.1, unified:22.19.655.1)
+[2018.09.27-23.39.26:338][  0]LogD3D11RHI:      Driver Date: 10-9-2017
+[2018.09.27-23.39.26:338][  0]LogRHI: Texture pool is 169 MB (70% of 241 MB)
+[2018.09.27-23.39.26:662][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.27-23.39.27:876][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2018.09.27-23.39.28:129][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Intermediate/Shaders/WorkingDirectory/4664/).
+[2018.09.27-23.39.28:130][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nanob/AppData/Local/Temp/UnrealShaderWorkingDir/9F7B558542AF5AEC82F23A9AA9BE606A/'.
+[2018.09.27-23.39.29:768][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.27-23.39.29:822][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.27-23.39.29:879][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.27-23.39.30:086][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.27-23.39.30:342][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.27-23.39.30:685][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.27-23.39.30:743][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.27-23.39.30:780][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.27-23.39.30:829][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.27-23.39.31:512][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.27-23.39.32:073][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.27-23.39.32:073][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.27-23.39.32:133][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.27-23.39.32:133][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.27-23.39.32:203][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.27-23.39.32:259][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.27-23.39.32:364][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.27-23.39.32:541][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.27-23.39.32:611][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.27-23.39.32:611][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.27-23.39.36:343][  0]LogXGEController: Cleaning working directory: C:/Users/nanob/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.27-23.39.36:343][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.27-23.39.36:343][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.27-23.39.36:343][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.27-23.39.55:354][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.27-23.39.58:151][  0]LogDerivedDataCache: Loaded boot cache 2.80s 71MB C:/Users/nanob/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.27-23.39.58:152][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nanob/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.27-23.39.58:153][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.27-23.39.58:153][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.27-23.39.58:153][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.27-23.39.58:153][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.27-23.39.58:595][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.27-23.39.58:623][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nanob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.27-23.39.58:623][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.27-23.39.58:623][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.27-23.39.59:038][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.27-23.39.59:192][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.27-23.39.59:503][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.27-23.40.06:540][  0]LogAssetRegistry: FAssetRegistry took 0.0347 seconds to start up
+[2018.09.27-23.40.15:111][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.27-23.40.22:956][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.27-23.40.23:823][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.27-23.40.23:843][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.27-23.40.23:900][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.27-23.40.23:900][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.27-23.40.25:510][  0]LogNetVersion: FFXIUE4_Repo 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 983422935)
+[2018.09.27-23.40.45:381][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.495520 seconds
+[2018.09.27-23.40.45:474][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.27-23.40.45:474][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.27-23.40.45:474][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.27-23.42.21:395][  0]LogDlgSystem: Verbose: Creating new DlgGuid = `0926F3E94E0DBA817D9EABA2C69FF56C` for Dialogue = `/Script/DlgSystem.Default__DlgDialogue` because of new created Dialogue.
+[2018.09.27-23.42.21:476][  0]LogDlgSystem: Verbose: Started DlgSystemModule
+[2018.09.27-23.42.22:199][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.27-23.42.22:308][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.27-23.42.32:378][  0]SourceControl: Source control is disabled
+[2018.09.27-23.42.32:437][  0]SourceControl: Source control is disabled
+[2018.09.27-23.42.33:171][  0]SourceControl: Source control is disabled
+[2018.09.27-23.42.33:442][  0]SourceControl: Source control is disabled
+[2018.09.27-23.42.40:453][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.27-23.42.41:607][  0]LogOcInput: OculusInput pre-init called
+[2018.09.27-23.42.42:265][  0]LogDlgSystemEditor: Verbose: Started DlgSystemEditorModule
+[2018.09.27-23.42.48:304][  0]LogDlgSystem: Verbose: Creating graph for Dialogue = `/Game/Dialogs/MoogleNOT.MoogleNOT`
+[2018.09.27-23.42.48:802][  0]LogDlgSystem: Verbose: Creating new DlgGuid = `17C0A5BE44FAE779D4027794321AF8FA` for Dialogue = `/Game/Dialogs/MoogleNOT.MoogleNOT` because of new created Dialogue.
+[2018.09.27-23.42.48:972][  0]LogDlgSystem: Verbose: Creating graph for Dialogue = `/DlgSystem/TestDialogue.TestDialogue`
+[2018.09.27-23.42.48:972][  0]LogDlgSystem: Verbose: Creating new DlgGuid = `25A5CCB8464AD085A383EA9383FAD757` for Dialogue = `/DlgSystem/TestDialogue.TestDialogue` because of new created Dialogue.
+[2018.09.27-23.42.48:994][  0]LogDlgSystem: Refreshing data for Dialogue = `/DlgSystem/TestDialogue.TestDialogue`
+[2018.09.27-23.42.49:035][  0]LogDlgSystemEditor: Verbose: UDlgManager::LoadAllDialoguesIntoMemory loaded 0 Dialogues into Memory
+[2018.09.27-23.42.54:493][  0]LogEngine: Initializing Engine...
+[2018.09.27-23.42.54:827][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.27-23.42.55:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2018.09.27-23.42.55:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.27-23.42.55:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.09.27-23.42.55:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.27-23.42.59:471][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.27-23.43.03:179][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.27-23.43.05:426][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.27-23.43.05:805][  0]LogInit: FAudioDevice initialized.
+[2018.09.27-23.43.05:899][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.27-23.43.06:363][  0]LogDerivedDataCache: Saved boot cache 0.46s 71MB C:/Users/nanob/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.27-23.43.06:363][  0]LogInit: Texture streaming: Enabled
+[2018.09.27-23.43.08:748][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.27-23.43.10:063][  0]LogInit: Transaction tracking system initialized
+[2018.09.27-23.43.12:951][  0]BlueprintLog: New page: Editor Load
+[2018.09.27-23.43.19:665][  0]LocalizationService: Localization service is disabled
+[2018.09.27-23.43.33:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/' took 0.18s
+[2018.09.27-23.43.33:963][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.27-23.43.34:007][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.27-23.43.34:072][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.27-23.43.34:092][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.27-23.43.34:092][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.27-23.43.34:092][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.27-23.43.34:092][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.27-23.43.44:757][  0]SourceControl: Source control is disabled
+[2018.09.27-23.43.45:049][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.27-23.43.45:309][  0]LightingResults: New page: Lighting Build
+[2018.09.27-23.43.47:037][  0]MapCheck: New page: Map Check
+[2018.09.27-23.43.47:037][  0]LightingResults: New page: Lighting Build
+[2018.09.27-23.44.07:962][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling'
+[2018.09.27-23.44.07:962][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/SK_Exodus_Gruntling.SK_Exodus_Gruntling Referenced by SK_Exodus_Gruntling_GEN_VARIABLE
+[2018.09.27-23.44.07:962][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling' while loading ../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/SK_Exodus_Gruntling.uasset.
+[2018.09.27-23.44.07:963][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/SK_Exodus_Gruntling.SK_Exodus_Gruntling Referenced by SK_Exodus_Gruntling_GEN_VARIABLE
+[2018.09.27-23.44.07:963][  0]LoadErrors: Error: /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/SK_Exodus_Gruntling : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling
+[2018.09.27-23.44.07:963][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling'
+[2018.09.27-23.44.07:963][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/SK_Exodus_Gruntling.SK_Exodus_Gruntling Referenced by SK_Exodus_Gruntling_GEN_VARIABLE
+[2018.09.27-23.44.07:963][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling' while loading ../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/SK_Exodus_Gruntling.uasset.
+[2018.09.27-23.44.07:963][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/SK_Exodus_Gruntling.SK_Exodus_Gruntling Referenced by SK_Exodus_Gruntling_GEN_VARIABLE
+[2018.09.27-23.44.07:963][  0]LoadErrors: Error: /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/SK_Exodus_Gruntling : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling
+[2018.09.27-23.44.10:711][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D'
+[2018.09.27-23.44.10:711][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.M_GoldBag Referenced by TargetVisual_GEN_VARIABLE
+[2018.09.27-23.44.10:711][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D' while loading ../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.uasset.
+[2018.09.27-23.44.10:711][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.M_GoldBag Referenced by TargetVisual_GEN_VARIABLE
+[2018.09.27-23.44.10:711][  0]LoadErrors: Error: /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag : Can't find file for asset. /Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D
+[2018.09.27-23.44.10:712][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N'
+[2018.09.27-23.44.10:712][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.M_GoldBag Referenced by TargetVisual_GEN_VARIABLE
+[2018.09.27-23.44.10:712][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N' while loading ../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.uasset.
+[2018.09.27-23.44.10:712][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.M_GoldBag Referenced by TargetVisual_GEN_VARIABLE
+[2018.09.27-23.44.10:713][  0]LoadErrors: Error: /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag : Can't find file for asset. /Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N
+[2018.09.27-23.44.10:713][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D'
+[2018.09.27-23.44.10:713][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.M_GoldBag Referenced by TargetVisual_GEN_VARIABLE
+[2018.09.27-23.44.10:714][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D' while loading ../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.uasset.
+[2018.09.27-23.44.10:714][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.M_GoldBag Referenced by TargetVisual_GEN_VARIABLE
+[2018.09.27-23.44.10:714][  0]LoadErrors: Error: /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag : Can't find file for asset. /Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D
+[2018.09.27-23.44.10:714][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N'
+[2018.09.27-23.44.10:714][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.M_GoldBag Referenced by TargetVisual_GEN_VARIABLE
+[2018.09.27-23.44.10:715][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N' while loading ../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.uasset.
+[2018.09.27-23.44.10:715][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag.M_GoldBag Referenced by TargetVisual_GEN_VARIABLE
+[2018.09.27-23.44.10:715][  0]LoadErrors: Error: /Game/InfinityBladeEffects/Effects/FX_Materials/M_GoldBag : Can't find file for asset. /Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N
+[2018.09.27-23.44.23:242][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling'
+[2018.09.27-23.44.23:242][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling.CharM_Gruntling Referenced by SK_Exodus_Gruntling
+[2018.09.27-23.44.23:242][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling' while loading NULL.
+[2018.09.27-23.44.23:242][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling.CharM_Gruntling Referenced by SK_Exodus_Gruntling
+[2018.09.27-23.44.26:754][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D'
+[2018.09.27-23.44.26:754][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D.T_Pickup_GoldBag_D Referenced by MaterialExpressionTextureSample_0
+[2018.09.27-23.44.26:755][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D' while loading NULL.
+[2018.09.27-23.44.26:755][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_D.T_Pickup_GoldBag_D Referenced by MaterialExpressionTextureSample_0
+[2018.09.27-23.44.26:755][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N'
+[2018.09.27-23.44.26:755][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N.T_Pickup_GoldBag_N Referenced by MaterialExpressionTextureSample_1
+[2018.09.27-23.44.26:756][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N' while loading NULL.
+[2018.09.27-23.44.26:756][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Textures/Env/T_Pickup_GoldBag_N.T_Pickup_GoldBag_N Referenced by MaterialExpressionTextureSample_1
+[2018.09.27-23.44.48:429][  0]LogMaterial: Display: Missing cached shader map for material M_GoldBag, compiling. 
+[2018.09.27-23.44.48:669][  0]LogMaterial: Warning: C:\Users\nanob\Documents\Unreal Projects\FFXIUE4_Repo\Content\InfinityBladeEffects\Effects\FX_Materials\M_GoldBag.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.09.27-23.44.48:669][  0]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.09.27-23.44.52:561][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.27-23.44.57:296][  0]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ThirdPerson_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2018.09.27-23.44.59:304][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.27-23.45.00:072][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.27-23.45.00:493][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 420.412ms to complete.
+[2018.09.27-23.45.00:523][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 75.599
+[2018.09.27-23.45.09:210][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-23.45.09:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-23.45.09:394][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-23.45.09:403][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-23.45.09:885][  0]LogCollectionManager: Loaded 0 collections in 0.035549 seconds
+[2018.09.27-23.45.11:436][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/Collections/' took 0.01s
+[2018.09.27-23.45.11:436][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Developers/Adam/Collections/' took 0.01s
+[2018.09.27-23.45.11:436][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Collections/' took 0.01s
+[2018.09.27-23.45.11:436][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.27-23.45.11:603][  0]LogContentBrowser: Native class hierarchy populated in 0.0743 seconds. Added 2618 classes and 618 folders.
+[2018.09.27-23.45.12:237][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.09.27-23.45.17:619][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.09.27-23.45.17:997][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.09.27-23.45.22:244][  0]LogSlate: Took 0.050718 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.27-23.45.22:485][  0]LogSlate: Took 0.114847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.27-23.45.22:653][  0]LogSlate: Took 0.069067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.27-23.45.25:633][  0]LogRenderer: Reallocating scene render targets to support 1208x452 Format 10 NumSamples 1 (Frame:1).
+[2018.09.27-23.45.28:533][  0]LogSlate: Took 0.073167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.27-23.45.30:027][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.09.27-23.45.30:028][  0]LogLoad: (Engine Initialization) Total time: 721.93 seconds
+[2018.09.27-23.45.30:028][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.27-23.45.31:676][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.27-23.45.32:052][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-23.45.35:124][  3]LogAssetRegistry: Asset discovery search completed in 328.6098 seconds
+[2018.09.27-23.45.35:128][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.09.27-23.45.35:129][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000179 seconds (updated 0 objects)
+[2018.09.27-23.46.03:592][557]LogSlate: Window 'Message Log' being destroyed
+[2018.09.27-23.46.03:658][557]LogSlate: Window 'Message Log' being destroyed
+[2018.09.27-23.46.09:252][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-23.47.01:858][371]LogSlate: Took 0.000490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.27-23.47.07:013][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/_________________explicitnoblend4BAF40924E58160071B88BA8D006AA56.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/_________________explicitnoblend.uasset'
+[2018.09.27-23.47.07:301][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___alfa01c_4C0B1C914243BED59F3C9CA70F642B6C.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___alfa01c_.uasset'
+[2018.09.27-23.47.07:404][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___alfa01c__explicitnoblendD858D23445FF4A948692E782692A8247.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___alfa01c__explicitnoblend.uasset'
+[2018.09.27-23.47.07:488][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___alfa01c__explicitsoftbleD18D4556499C6AC81C1C0D9387035847.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___alfa01c__explicitsoftblend.uasset'
+[2018.09.27-23.47.07:544][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___alfa02c_28071DD649F76213DADCD2AF66C6BD39.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___alfa02c_.uasset'
+[2018.09.27-23.47.07:616][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___alfa02c__explicitsoftble37427ACF4B45092221255892FD4D4C6A.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___alfa02c__explicitsoftblend.uasset'
+[2018.09.27-23.47.07:701][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___ch_w2___CB4A16BC4323BBD8BAF6188673CF20E4.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___ch_w2___.uasset'
+[2018.09.27-23.47.07:788][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___ch_w2____explicitnoblend9C410B264A3E7EA1CF01E0B6F82AA183.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___ch_w2____explicitnoblend.uasset'
+[2018.09.27-23.47.07:833][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___ch_w____A8ED375146B6FAE2FDA1CEA18D4B68E3.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___ch_w____.uasset'
+[2018.09.27-23.47.07:890][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___ch_w_____explicitnoblendA93BB35644064D3B37D3ABAAE5ACB77E.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___ch_w_____explicitnoblend.uasset'
+[2018.09.27-23.47.07:951][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___cil01c___explicitnoblend29D7153049E3D7F31B9191A5DF2F7E1F.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___cil01c___explicitnoblend.uasset'
+[2018.09.27-23.47.07:978][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___cil02c__EACC7F454A4FCBD8A1B0C3A080010063.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___cil02c__.uasset'
+[2018.09.27-23.47.08:032][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___cil02c___explicitsoftble308F8B5F4519612ED40B10BEE5DB8BAC.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___cil02c___explicitsoftblend.uasset'
+[2018.09.27-23.47.08:079][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_fgg1E1F5A4704A5442E03C0C74993F910CB3.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_fgg1.uasset'
+[2018.09.27-23.47.08:137][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_fgg1_explicitnoblendBCF6E83D4D48219A312570856BCE679D.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_fgg1_explicitnoblend.uasset'
+[2018.09.27-23.47.08:351][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_frg1ABBFB8154A02B82D6C444197AD39E697.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_frg1.uasset'
+[2018.09.27-23.47.08:426][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_frg1_explicitnoblend2072E6F64C5441F97A1CB982428BFA1E.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_frg1_explicitnoblend.uasset'
+[2018.09.27-23.47.08:478][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_frg27CD5E6574510B1C8558938AC80CC8209.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_frg2.uasset'
+[2018.09.27-23.47.08:545][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_frg2_explicitnoblend1A244F5E4D610FE27E89A5B0E9FA5C26.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_frg2_explicitnoblend.uasset'
+[2018.09.27-23.47.08:631][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_fsg165C19426413BF2A24C4836A47DA72EF0.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_fsg1.uasset'
+[2018.09.27-23.47.08:699][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_fsg1_explicitnoblend866EA0B349F854F2DCD5309DEB724D45.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_fsg1_explicitnoblend.uasset'
+[2018.09.27-23.47.08:749][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_wi1_7492CAD842902D919640F39F6C9750C3.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_wi1_.uasset'
+[2018.09.27-23.47.08:823][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_wi1__explicitnoblendC76B3ED44860F34612851AA9871783C3.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_wi1__explicitnoblend.uasset'
+[2018.09.27-23.47.08:895][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_wi1__explicitsoftbleBF056FB44FD916462D3F879227488CFE.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_wi1__explicitsoftblend.uasset'
+[2018.09.27-23.47.08:942][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_wk1_B1B668FA41D4CFC6EB6D8E9CAEF4B433.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_wk1_.uasset'
+[2018.09.27-23.47.09:005][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_wk1__explicitnoblend844E2DA7475810BEC347998AFB73EDB6.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_wk1__explicitnoblend.uasset'
+[2018.09.27-23.47.09:041][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_wk2_D56A2C6742CE0B3AC9F1588626528326.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_wk2_.uasset'
+[2018.09.27-23.47.09:108][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___con_wk2__explicitnoblend5EB745304491FA78816D719CB74CF8A7.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___con_wk2__explicitnoblend.uasset'
+[2018.09.27-23.47.09:329][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___h_01c___CFB0DE3B4BAD40EB0C3A80991D632A47.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___h_01c___.uasset'
+[2018.09.27-23.47.09:397][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___h_01c____explicitsoftble253C2EBD454A9C2EE703EAAFC87249E2.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___h_01c____explicitsoftblend.uasset'
+[2018.09.27-23.47.09:417][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___hat01c__8FDC10CA480A95647DE5A9B977A895E5.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___hat01c__.uasset'
+[2018.09.27-23.47.09:477][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___hat01c___explicitsoftble3513904A403AABD9AFBDF28FCCD94F17.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___hat01c___explicitsoftblend.uasset'
+[2018.09.27-23.47.09:500][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___k02c____6E0166EC41068BAE2441B3B04C3CA79A.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___k02c____.uasset'
+[2018.09.27-23.47.09:560][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___k02c_____explicitsoftble7DDDF638407F14FBB0D2EC9150AFA123.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___k02c_____explicitsoftblend.uasset'
+[2018.09.27-23.47.09:589][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___kab_01c_03D5885C4F4923C710B3B78EC2C0D9E2.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___kab_01c_.uasset'
+[2018.09.27-23.47.09:651][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___kab_01c__explicitsoftble255E2559450D7A5DE1628783FD88D276.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___kab_01c__explicitsoftblend.uasset'
+[2018.09.27-23.47.09:697][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___ky_w01c_6F1F89124875A0D727B750AB5D3A0C46.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___ky_w01c_.uasset'
+[2018.09.27-23.47.09:755][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/model___ky_w01c__explicitsoftbleE723FC3E4D85123602A77FBF665D798B.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/model___ky_w01c__explicitsoftblend.uasset'
+[2018.09.27-23.47.10:110][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/AlphaTestZone1_StaticMeshE0D58D3841D751A365ED2598A2ABEFB2.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/AlphaTestZone1_StaticMesh.uasset'
+[2018.09.27-23.47.11:199][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/AlphaTestZone1_StaticMesh3493285841829913BDB446B84F81EB26.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Alpha_Test_Zone_1/AlphaTestZone1_StaticMesh.uasset'
+[2018.09.27-23.47.11:225][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/Alpha_Test_Zone_Skeleton2AE78BE04975278744E008BF30AB30D1.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/Alpha_Test_Zone_Skeleton.uasset'
+[2018.09.27-23.47.11:244][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/Alpha_Test_Zone_Skeleton161EBBB054630EED13BEB8BB6225F1893.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/Alpha_Test_Zone_Skeleton1.uasset'
+[2018.09.27-23.47.11:264][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/bird____tobi01__550547934988C96FC28197BD177B2833.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/bird____tobi01__.uasset'
+[2018.09.27-23.47.11:287][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/lf01____lf01____8B7DFBE9495D7A3CDE7AF690BDCE512B.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/lf01____lf01____.uasset'
+[2018.09.27-23.47.11:308][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/moon____kasa____B06F865249BC4669C93CA5A85B4CB00A.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/moon____kasa____.uasset'
+[2018.09.27-23.47.11:341][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/moon____moonshapA6A930EF45BE5DA4F04C5EA13154FFF1.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/moon____moonshap.uasset'
+[2018.09.27-23.47.11:358][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/star____star01__16751D764439ACEBD8ED14A2C8D9F2E2.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/star____star01__.uasset'
+[2018.09.27-23.47.11:386][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/star____star02__8C468EA645912062FDD8BCA4EEC22FC3.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/star____star02__.uasset'
+[2018.09.27-23.47.11:457][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/suny____suny_a01F695450F498D0B8FC8BCB694AB91B154.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/suny____suny_a01.uasset'
+[2018.09.27-23.47.11:544][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/__flat_normalC6F9B8F548EBD9605625FF9043582EC5.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/__flat_normal.uasset'
+[2018.09.27-23.47.11:558][371]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/__flat_spec787DD603414786CD83F04E8F3CFB42A6.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/__flat_spec.uasset'
+[2018.09.27-23.47.33:723][148]LogSlate: Window 'Failed Renames' being destroyed
+[2018.09.27-23.48.06:868][581]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/Character_Creation_Zone_Skeleton066AD8D3480802FBDC0AD586D23181FC.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/Character_Creation_Zone_Skeleton.uasset'
+[2018.09.27-23.48.29:449][470]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/Character_Creation_Zone_Skeleton2D31734C4A1BA23F761B02AA05A33DC2.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/Character_Creation_Zone_Skeleton1.uasset'
+[2018.09.27-23.48.55:736][289]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/Character_Creation_Zone_StaticMeAC48791849CC8BD4F2F3E9A98B5478DA.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Character_Creation_Zone/Character_Creation_Zone_StaticMesh.uasset'
+[2018.09.27-23.48.56:018][289]LogSavePackage: Moving '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Saved/AlphaTestZone1_StaticMesh0E23623C4ACB4B34C190D4ADAD4C3883.tmp' to '../../../../../../Users/nanob/Documents/Unreal Projects/FFXIUE4_Repo/Content/Zones/Alpha_Test_Zone_1/AlphaTestZone1_StaticMesh.uasset'
+[2018.09.27-23.49.19:597][936]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Zones/Character_Creation_Zone/Character_Creation_Zone_StaticMesh.Character_Creation_Zone_StaticMesh
+[2018.09.27-23.49.50:224][936]LogRenderer: Reallocating scene render targets to support 1208x828 Format 10 NumSamples 1 (Frame:1).
+[2018.09.27-23.49.50:224][936]LogSlate: Took 0.021737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.27-23.53.11:423][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-23.53.11:894][713]LogSlate: Window 'Character_Creation_Zone_StaticMesh' being destroyed
+[2018.09.27-23.53.11:900][713]LogSlate: Window 'Character_Creation_Zone_StaticMesh' being destroyed
+[2018.09.27-23.54.38:280][431]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Zones/Character_Creation_Zone/Character_Creation_Zone_StaticMesh.Character_Creation_Zone_StaticMesh
+[2018.09.27-23.54.41:356][463]LogSlate: Window 'Character_Creation_Zone_StaticMesh' being destroyed
+[2018.09.27-23.54.41:367][463]LogSlate: Window 'Character_Creation_Zone_StaticMesh' being destroyed
+[2018.09.27-23.54.56:026][ 20]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.27-23.55.06:772][ 92]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.27-23.55.07:528][ 92]LogEditorActor: Deleted 1 Actors (1.080 secs)
+[2018.09.27-23.55.08:335][103]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
+ with error 88760873
+[2018.09.27-23.55.08:335][103]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.09.27-23.55.59:810][103]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.09.27-23.56.00:021][103]LogWindows: Error: === Critical error: ===
+[2018.09.27-23.56.00:021][103]LogWindows: Error: 
+[2018.09.27-23.56.00:021][103]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2018.09.27-23.56.00:021][103]LogWindows: Error: Rendering thread exception:
+[2018.09.27-23.56.00:021][103]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 251] 
+[2018.09.27-23.56.00:021][103]LogWindows: Error: Result failed 
+[2018.09.27-23.56.00:021][103]LogWindows: Error:  at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
+[2018.09.27-23.56.00:021][103]LogWindows: Error:  with error 88760873
+[2018.09.27-23.56.00:021][103]LogWindows: Error: 
+[2018.09.27-23.56.00:021][103]LogWindows: Error: 
+[2018.09.27-23.56.00:021][103]LogWindows: Error: [Callstack] 0x00007ffb0f42a388 KERNELBASE.dll!UnknownFunction []
+[2018.09.27-23.56.00:021][103]LogWindows: Error: [Callstack] 0x00007ffaed496850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffad39862fc UE4Editor-Core.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffad39151db UE4Editor-Core.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffaed6be896 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffaed69d0aa UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffaed6aab70 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffae56fb106 UE4Editor-RHI.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffad8dc1b42 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffad8dc7d0a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffad37a1f92 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffad37a2456 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffaed5175f9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffaed518574 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffad3be6b7c UE4Editor-Core.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffad3be17c7 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffb11523034 KERNEL32.DLL!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: [Callstack] 0x00007ffb12fe1461 ntdll.dll!UnknownFunction []
+[2018.09.27-23.56.00:023][103]LogWindows: Error: 
+[2018.09.27-23.56.00:023][103]LogWindows: Error: 
+[2018.09.27-23.56.00:023][103]LogWindows: Error: 
+[2018.09.27-23.56.00:023][103]LogWindows: Error: 
+[2018.09.27-23.56.00:119][103]LogExit: Executing StaticShutdownAfterError
+[2018.09.27-23.56.01:536][103]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.09.27-23.56.01:728][103]Log file closed, 09/27/18 17:56:01
